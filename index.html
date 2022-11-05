@@ -2,11 +2,40 @@
 <html>
 <head>
     <meta charset='UTF-8'/>
+
+    <!--Linking css file-->
     <link rel='stylesheet' href='styles.css'>
 </head>
 
 <body>
-    <center><h1>Creep It Real</h1></center>
+    <!--Linking js file-->
+    <script src="script.js"></script>
+
+    <!--Heading-->
+    <h1 align = "center">Creep It Real</h1>
+
+    <!--Buttons-->
+    <div align = "right">
+        <button id="cbtn" onclick="chooseChild()">Child</button>
+        <button id="abtn" onclick="chooseAdult()">Adult</button>
+    </div>
+    
+    <div align = "right">
+        <button id = "gbtn" onclick="chooseGroup()">Group</button>
+        <button id = "sbtn" onclick="chooseSingle()">Single</button>
+    </div>
+
+    <div align = "right">
+        <button id = "animal" onclick="chooseAnimal()">Animal</button>
+        <button id = "profession" onclick="chooseProfession()">Profession</button>
+        <button id = "media" onclick="chooseMedia()">Media</button>
+        <button id = "mythical" onclick="chooseMythical()">Mythical</button>
+    </div>
+
+    <!-- <div>
+        <button id = "haircolor">Hair Color</button>
+    </div> -->
+    
 </body>
 
 </html>

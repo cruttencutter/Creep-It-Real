@@ -1,3 +1,34 @@
-h1 {
-    color: red;
+button {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
 }
+
+#gbtn {
+    visibility: hidden;
+}
+
+#sbtn {
+    visibility: hidden;
+}
+
+#animal {
+    visibility: hidden;
+}
+
+#profession {
+    visibility: hidden;
+}
+
+#media {
+    visibility: hidden;
+}
+
+#mythical {
+    visibility: hidden;
+}
+
+/* #haircolor {
+    visibility: hidden;
+} */
