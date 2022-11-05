@@ -12,6 +12,13 @@ function chooseChild() {
     btn2.style.backgroundColor = 'white';
     btn2.style.color = 'black';
     btn2.disabled = true;
+
+    let mysrc = "oneFourth.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
 }
 
 function chooseAdult() {
@@ -28,6 +35,13 @@ function chooseAdult() {
     
     btn2.style.backgroundColor = 'green';
     btn2.style.color = 'white';
+
+    let mysrc = "oneFourth.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
 }
 
 function chooseGroup() {
@@ -46,6 +60,13 @@ function chooseGroup() {
     btn2.style.backgroundColor = 'white';
     btn2.style.color = 'black';
     btn2.disabled = true;
+
+    let mysrc = "twoFourths.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
 }
 
 function chooseSingle() {
@@ -64,6 +85,13 @@ function chooseSingle() {
     
     btn2.style.backgroundColor = 'green';
     btn2.style.color = 'white';
+
+    let mysrc = "twoFourths.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
 }
 
 function chooseAnimal() {
@@ -91,6 +119,14 @@ function chooseAnimal() {
     btn4.style.backgroundColor = 'white';
     btn4.style.color = 'black';
     btn4.disabled = true;
+
+    let mysrc = "full.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
+    document.getElementById('generate').style.visibility = "visible";
 }
 
 function chooseProfession() {
@@ -118,6 +154,15 @@ function chooseProfession() {
     btn4.style.backgroundColor = 'white';
     btn4.style.color = 'black';
     btn4.disabled = true;
+
+    let mysrc = "full.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
+
+    document.getElementById('generate').style.visibility = "visible";
 }
 
 function chooseMedia() {
@@ -145,6 +190,15 @@ function chooseMedia() {
     btn4.style.backgroundColor = 'white';
     btn4.style.color = 'black';
     btn4.disabled = true;
+
+    let mysrc = "full.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
+
+    document.getElementById('generate').style.visibility = "visible";
 }
 
 function chooseMythical() {
@@ -172,5 +226,14 @@ function chooseMythical() {
     
     btn4.style.backgroundColor = 'green';
     btn4.style.color = 'white';
+
+    let mysrc = "full.png";
+    const img = document.getElementById("avatar");
+
+    if(img.src != mysrc){
+        img.src = mysrc;
+    }
+
+    document.getElementById('generate').style.visibility = "visible";
 }
 

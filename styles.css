@@ -1,8 +1,18 @@
+div {
+    float: left;
+}
+
 button {
     color: black;
     background-color: white;
     font-size: 15px;
     padding: 5px;
+}
+
+#Buttons {
+    margin-top: 80px;
+    text-align: right;
+    margin-left: 400px;
 }
 
 #gbtn {
@@ -32,3 +42,7 @@ button {
 /* #haircolor {
     visibility: hidden;
 } */
+
+#generate {
+    visibility: hidden;
+}
