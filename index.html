@@ -12,38 +12,51 @@
     <script src="script.js"></script>
 
     <!--Heading-->
-    <h1 align = "center">Creep It Real</h1>
+    <center><img src = "header.png" style="width: 500px; height: 195px"/></center>
+    <h2 id="result"></h2>
 
-    <!--Loading avatar image-->
-    <div><img id = "avatar" src="empty.png"></div>
+    <div class="row">
+        <div class="column left">
+            <!--Loading avatar image-->
+            <div><img class = "avatarClass" id = "avatar" src="empty.png"><img id = "secondImage"></div>
+        </div>
 
-    <!--Buttons-->
-    <div id = "Buttons">
-        <!--Child & adult buttons-->
-        <button id="cbtn" onclick="chooseChild()">Child</button>
-        <button id="abtn" onclick="chooseAdult()">Adult</button>
-        <br>
+        <div class="column right">
+            <!--Buttons-->
+            <div id = "Buttons">
+                <!--Child & adult buttons-->
+                <button class = "" id="cbtn" onclick="chooseChild()">Child</button>
+                <button id="abtn" onclick="chooseAdult()">Adult</button>
+                <br>
     
-        <!--Group & single buttons-->
-        <button id = "gbtn" onclick="chooseGroup()">Group</button>
-        <button id = "sbtn" onclick="chooseSingle()">Single</button>
-        <br>
+                <!--Group & single buttons-->
+                <button id = "gbtn" onclick="chooseGroup()">Group</button>
+                <button id = "sbtn" onclick="chooseSingle()">Single</button>
+                <br>
 
-        <!--Animal, profession, media, and mythical buttons-->
-        <button id = "animal" onclick="chooseAnimal()">Animal</button>
-        <button id = "profession" onclick="chooseProfession()">Profession</button>
-        <button id = "media" onclick="chooseMedia()">Media</button>
-        <button id = "mythical" onclick="chooseMythical()">Mythical</button>
-        <br>
+                <!--Sexy, Cute, Funny, and Scary buttons (for adults)-->
+                <button id = "spicy" onclick="chooseSpicy()">Spicy</button>
+                <button id = "cute" onclick="chooseCute()">Cute</button>
+                <button id = "funny" onclick="chooseFunny()">Funny</button>
+                <button id = "scary" onclick="chooseScary()">Scary</button>
+                <br> <!-- fix this -->
 
-        <!-- <div>
-            <button id = "haircolor">Hair Color</button>
-        </div> -->
+                <!--Animal, profession, media, and mythical buttons-->
+                <button id = "animal" onclick="chooseAnimal()">Animal</button>
+                <button id = "profession" onclick="chooseProfession()">Profession</button>
+                <button id = "media" onclick="chooseMedia()">Media</button>
+                <button id = "mythical" onclick="chooseMythical()">Mythical</button>
+                <br>
 
-        <!--Generate answer button-->
-        <br>
-        <button id = "generate" onclick = "window.location.href='answer.html';">Generate</button>
+                <!--Generate answer button-->
+                <br>
+                <button id = "generate" onclick = "answer()">Generate</button>
+            </div>
+        </div>
     </div>
+
+    <br><br><br>
+    <center><button id = "return" onclick = "window.location.reload();"></button></center>
     
 </body>
 

@@ -2,17 +2,86 @@ div {
     float: left;
 }
 
-button {
-    color: black;
-    background-color: white;
-    font-size: 15px;
-    padding: 5px;
+.row {
+    display: table;
+  }
+  
+.column {
+    float: left;
 }
 
+.left {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+}
+
+h2 {
+    padding-left: 235px;
+}
+
+.right {
+    width:40%;
+}
+
+.avatarClass {
+    width: 400px;
+    height: 600px;
+}
+
+
+body {
+    padding-top: 50px;
+    background-color: #f8e9cb;
+    display: grid;
+}
+
+
+/*THIS CHANGED
+    -change image size
+        -output, set for specififc sizes
+    -buttons change to candy when pressed
+    -animation of images when click generate
+    -change cursor to something on theme
+        div {
+        cursor:vertical-text;}
+ 
+*/
+
+.imageOutput {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
 #Buttons {
-    margin-top: 80px;
+    /* color: #15100c; */
+    padding-top: 80px;
+    margin: 0;
     text-align: right;
-    margin-left: 400px;
+}
+ 
+.candyButton{
+    padding-top: 10px; 
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url('candy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+}
+
+#random {
+    visibility: hidden;
 }
 
 #gbtn {
@@ -20,6 +89,22 @@ button {
 }
 
 #sbtn {
+    visibility: hidden;
+}
+
+#spicy {
+    visibility: hidden;
+}
+
+#cute {
+    visibility: hidden;
+}
+
+#funny {
+    visibility: hidden;
+}
+
+#scary {
     visibility: hidden;
 }
 
@@ -39,10 +124,19 @@ button {
     visibility: hidden;
 }
 
-/* #haircolor {
-    visibility: hidden;
-} */
-
 #generate {
     visibility: hidden;
+}
+
+#return {
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+    background-image: url('CREEP.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background-position: center;
 }
