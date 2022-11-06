@@ -37,17 +37,46 @@ body {
     display: grid;
 }
 
+#getStarted {
+    height: 350px;
+    width: 900px;
+    font-size: 70px;
+    background-color: #866236;
+    color: #f8e9cb;
+    border-radius: 15px;
+}
 
-/*THIS CHANGED
-    -change image size
-        -output, set for specififc sizes
-    -buttons change to candy when pressed
-    -animation of images when click generate
-    -change cursor to something on theme
-        div {
-        cursor:vertical-text;}
- 
-*/
+#pumpkin {
+    position: absolute;
+    bottom:35%;
+    left: 36%;
+}
+
+.loader {
+    border: 16px solid black;
+    border-radius: 50%;
+    border-top: 16px solid #f5af48;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: fixed; 
+    top: 50%;
+    left: 45.5%;
+    bottom: 40%;
+    visibility: hidden;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 .imageOutput {
     width: 300px;

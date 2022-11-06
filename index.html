@@ -12,51 +12,11 @@
     <script src="script.js"></script>
 
     <!--Heading-->
-    <center><img src = "header.png" style="width: 500px; height: 195px"/></center>
-    <h2 id="result"></h2>
+    <center><img id='header' src = "header.png" style="width: 500px; height: 195px"/></center><br>
+    <img id="pumpkin"/><br><br><br>
+    <center><button id="getStarted" onclick="loading()">GET STARTED</button><br></center>
 
-    <div class="row">
-        <div class="column left">
-            <!--Loading avatar image-->
-            <div><img class = "avatarClass" id = "avatar" src="empty.png"><img id = "secondImage"></div>
-        </div>
-
-        <div class="column right">
-            <!--Buttons-->
-            <div id = "Buttons">
-                <!--Child & adult buttons-->
-                <button class = "" id="cbtn" onclick="chooseChild()">Child</button>
-                <button id="abtn" onclick="chooseAdult()">Adult</button>
-                <br>
-    
-                <!--Group & single buttons-->
-                <button id = "gbtn" onclick="chooseGroup()">Group</button>
-                <button id = "sbtn" onclick="chooseSingle()">Single</button>
-                <br>
-
-                <!--Sexy, Cute, Funny, and Scary buttons (for adults)-->
-                <button id = "spicy" onclick="chooseSpicy()">Spicy</button>
-                <button id = "cute" onclick="chooseCute()">Cute</button>
-                <button id = "funny" onclick="chooseFunny()">Funny</button>
-                <button id = "scary" onclick="chooseScary()">Scary</button>
-                <br> <!-- fix this -->
-
-                <!--Animal, profession, media, and mythical buttons-->
-                <button id = "animal" onclick="chooseAnimal()">Animal</button>
-                <button id = "profession" onclick="chooseProfession()">Profession</button>
-                <button id = "media" onclick="chooseMedia()">Media</button>
-                <button id = "mythical" onclick="chooseMythical()">Mythical</button>
-                <br>
-
-                <!--Generate answer button-->
-                <br>
-                <button id = "generate" onclick = "answer()">Generate</button>
-            </div>
-        </div>
-    </div>
-
-    <br><br><br>
-    <center><button id = "return" onclick = "window.location.reload();"></button></center>
+    <div id = 'loader' class = "loader"></div>
     
 </body>
 

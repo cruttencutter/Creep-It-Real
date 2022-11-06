@@ -1,3 +1,18 @@
+function loading () {
+    document.getElementById('getStarted').style.visibility = 'hidden';
+    document.getElementById('header').style.visibility = 'hidden';
+    document.getElementById('loader').style.visibility = 'visible';
+    document.body.style.backgroundColor = '#96A0A8';
+
+    document.getElementById('pumpkin').src = 'CREEP-2.png';
+
+    setTimeout(switchSites, 1500);
+}
+
+function switchSites () {
+    window.location.href = 'mainWebsite.html';
+}
+
 // Creating variables to tell which buttons have been clicked
 var childClicked = false;
 var adultClicked = false;
