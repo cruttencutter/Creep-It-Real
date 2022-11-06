@@ -542,37 +542,37 @@ if (childClicked) {
     if (singleClicked) {
         if (animalClicked) {
             document.getElementById("result").innerHTML = "Try a: cat";
-            img1.src = "black cat boy.jpg"; // cat boy
-            img2.src = "black-cat-costume-girls.webp"; // cat girl
+            img1.src = "children/black cat boy.jpg"; // cat boy
+            img2.src = "children/black-cat-costume-girls.webp"; // cat girl
         } else if (professionClicked) {
             document.getElementById("result").innerHTML = "Try a: cowboy/cowgirl";
-            img1.src = "cowboy.webp"; // cowboy
-            img2.src = "cowgirl.jpg"; // cowgirl
+            img1.src = "children/cowboy.webp"; // cowboy
+            img2.src = "children/cowgirl.jpg"; // cowgirl
         } else if (mediaClicked) {
             document.getElementById("result").innerHTML = "Try a: minion";
-            img1.src = "minion boy.webp"; // minion boy
-            img2.src = "minion girl.jpg"; // minion girl
+            img1.src = "children/minion boy.webp"; // minion boy
+            img2.src = "children/minion girl.jpg"; // minion girl
         } else if (mythicalClicked) {
             document.getElementById("result").innerHTML = "Try a: unicorn";
-            img1.src = "unicorn boys.webp"; // unicorn boy
-            img2.src = "girls unicorn.jpg"; // unicorn girl
+            img1.src = "children/unicorn boys.webp"; // unicorn boy
+            img2.src = "children/girls unicorn.jpg"; // unicorn girl
         }
     } else if (groupClicked){
         if (animalClicked) {
             document.getElementById("result").innerHTML = "Try: dinosaurs";
-            img1.src = "dinosaur.jpg"; // dinosaur
+            img1.src = "children/dinosaur.jpg"; // dinosaur
             img2.style.visibility = 'hidden';
         } else if (professionClicked) {
             document.getElementById("result").innerHTML = "Try: boxers";
-            img1.src = "boxer boy.webp"; // boxer girl
-            img2.src = "boxer girl.png"; // boxer boy
+            img1.src = "children/boxer boy.webp"; // boxer girl
+            img2.src = "children/boxer girl.png"; // boxer boy
         } else if (mediaClicked) {
             document.getElementById("result").innerHTML = "Try: minions";
-            img1.src = "minion boy.webp"; // minion
-            img2.src = "minion girl.jpg"; // minion
+            img1.src = "children/minion boy.webp"; // minion
+            img2.src = "children/minion girl.jpg"; // minion
         } else if (mythicalClicked) {
             document.getElementById("result").innerHTML = "Try: greek gods/goddesses";
-            img1.src = "greek gods group.jpg"; // greek god
+            img1.src = "children/greek gods group.jpg"; // greek god
             img2.style.visibility = 'hidden';
         }
     }
